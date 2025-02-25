@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    background-image: url('What-is-Barley-Grass.jpg'); /* Ensure correct path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps background fixed on scroll */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Brand Logo */
+.navbar-brand img {
+    max-height: 60px; /* Set max height for logo */
+    object-fit: contain; /* Maintain aspect ratio */
+    background-color: white;
+}
+
+/* Carousel Styling */
+.carousel-item img {
+    height: 500px; /* Adjust as needed */
+    object-fit: cover; /* Ensures images fill the area without stretching */
+}
+
+#carouselExampleFade {
+    max-width: 100%;
+    margin: auto;
+}
+
+.navbar-nav .nav-link {
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light highlight */
+    color: #f8f9fa; /* Light color */
+  }
+
+  @media (max-width: 768px) {
+    #carouselExampleFade {
+      display: none; /* Hide carousel on mobile */
+    }
+    .mobile-banner {
+      display: block; /* Show static image */
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .mobile-banner {
+      display: none; /* Hide static image on larger screens */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 15px; /* Increase space between cards */
+      padding: 15px; /* Add padding inside the card */
+    }
+  }
