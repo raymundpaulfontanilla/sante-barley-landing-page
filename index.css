@@ -82,4 +82,32 @@ body {
       order: 1; /* Moves text to the top */
     }
   }
-  
+
+/* Add this to your index.css file */
+.banner {
+  width: 100%;
+  height: 500px; /* Default for large screens */
+  overflow: hidden;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image scales properly */
+}
+
+/* Tablet (iPads) */
+@media (max-width: 1024px) {
+  .banner {
+    height: 350px; /* Reduce height for tablets */
+  }
+}
+
+/* Mobile (Phones) */
+@media (max-width: 768px) {
+  .banner {
+    height: 250px; /* Reduce height for mobile */
+  }
+}
+
