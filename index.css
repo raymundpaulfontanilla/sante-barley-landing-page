@@ -58,3 +58,28 @@ body {
       padding: 15px; /* Add padding inside the card */
     }
   }
+
+  @media (max-width: 768px) {
+    img.responsive-img {
+      margin: 50px auto; /* Adjust margin */
+      display: block; /* Center the image */
+      width: 90%; /* Make it responsive */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .who-we-are {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .who-we-are img {
+      order: 2; /* Moves image to the bottom */
+      margin-top: 20px; /* Adds spacing */
+    }
+  
+    .who-we-are .text-content {
+      order: 1; /* Moves text to the top */
+    }
+  }
+  
