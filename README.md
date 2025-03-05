@@ -16,6 +16,7 @@ This landing page is designed for **Santé Barley** and incorporates **Search En
 - **HTML** – Structuring the webpage
 - **CSS** – Styling and layout improvements
 - **Bootstrap** – For responsive design and styling
+- **JavaScript** – For interactive elements and dynamic content
 
 ## Future Improvements
 - Enhance UI/UX with better animations and transitions.
