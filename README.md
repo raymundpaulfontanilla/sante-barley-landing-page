@@ -1,7 +1,7 @@
 # My First Landing Page
 
 ## Introduction
-This project is my first landing page, created to practice and strengthen my front-end web development fundamentals. My main focus is improving my skills in position alignment, with the ultimate goal of becoming a full-fledged full-stack web developer. This project also serves as the first step in building my portfolio.
+This project is my first landing page, created to practice and strengthen my front-end web development fundamentals. As a PHP Backend Laravel API Developer, my main focus is improving my skills in position alignment, with the ultimate goal of becoming a full-fledged full-stack web developer. This project also serves as the first step in building my portfolio.
 
 ## Project Overview
 This landing page is designed for **Santé Barley** and incorporates **Search Engine Optimization (SEO)** techniques to enhance online visibility. The page aims to help my mother market the **Santé Barley** product effectively.
@@ -15,7 +15,6 @@ This landing page is designed for **Santé Barley** and incorporates **Search En
 ## Technologies Used
 - **HTML** – Structuring the webpage
 - **CSS** – Styling and layout improvements
-- **JavaScript** – Interactive elements (if applicable)
 
 ## Future Improvements
 - Enhance UI/UX with better animations and transitions.
