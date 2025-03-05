@@ -12,7 +12,7 @@ This landing page is designed for **Santé Barley** and incorporates **Search En
 - **Hyperlink Integration** – Redirects users to the existing **Santé Barley** dropshipping system.
 - **Clean and Minimal UI** – Focuses on user-friendly navigation and accessibility.
 
-## Technologies Used
+## 💻 Technologies Used
 - **HTML** – Structuring the webpage
 - **CSS** – Styling and layout improvements
 - **Bootstrap** – For responsive design and styling
@@ -33,7 +33,7 @@ This landing page is designed for **Santé Barley** and incorporates **Search En
    ```
 3. Open `index.html` in your preferred browser.
 
-## Credits
+## 👨‍💻 Credits
 Developed by **Raymund Paul S. Fontanilla**
 
 ## License
