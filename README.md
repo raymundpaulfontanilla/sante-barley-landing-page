@@ -26,11 +26,11 @@ This landing page is designed for **Santé Barley** and incorporates **Search En
 ## How to Use
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/landing-page.git
+   git clone https://github.com/raymundpaulfontanilla/sante-barley-landing-page.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd landing-page
+   cd sante-barley-landing-page
    ```
 3. Open `index.html` in your preferred browser.
 
