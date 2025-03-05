@@ -1,5 +1,9 @@
 # My First Landing Page
 
+**Design Reference**
+
+You can view the design prototype on Figma.
+
 ## Introduction
 This project is my first landing page, created to practice and strengthen my front-end web development fundamentals. As a PHP Backend Laravel API Developer, my main focus is improving my skills in position alignment, with the ultimate goal of becoming a full-fledged full-stack web developer. This project also serves as the first step in building my portfolio.
 
