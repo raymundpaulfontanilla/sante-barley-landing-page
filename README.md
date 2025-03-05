@@ -2,9 +2,7 @@
 
 **Design Reference**
 
-You can view the design prototype on Figma.
-
-Or access it directly using this link:https://www.figma.com/design/r2jkMOJq6wxcMSrhSxwLAX/Sant%C3%A9-Barley?node-id=0-1&p=f&t=AgdBVn0Y4g2ejZsC-0
+You can view the design prototype on Figma using this link: https://www.figma.com/design/r2jkMOJq6wxcMSrhSxwLAX/Sant%C3%A9-Barley?node-id=0-1&t=AgdBVn0Y4g2ejZsC-1
 
 ## Introduction
 This project is my first landing page, created to practice and strengthen my front-end web development fundamentals. As a PHP Backend Laravel API Developer, my main focus is improving my skills in position alignment, with the ultimate goal of becoming a full-fledged full-stack web developer. This project also serves as the first step in building my portfolio.
