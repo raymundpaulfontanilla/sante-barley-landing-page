@@ -34,7 +34,7 @@ This landing page is designed for **Santé Barley** and incorporates **Search En
 3. Open `index.html` in your preferred browser.
 
 ## Credits
-Developed by **[Raymund Paul S. Fontanilla]**
+Developed by **Raymund Paul S. Fontanilla**
 
 ## License
 This project is licensed under the **MIT License**.
