@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf9f6;
+}
+
+.custom-container {
+  background: #faf9f6;
+  border-radius: 15px;
+  border: 1px solid #faf9f6;
+  padding: 15px 20px;
+  box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  background-color: #faf9f6 !important;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+a:hover {
+  color: #0c9931 !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #0c9931;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  margin-right: 100px;
+}
