@@ -3,7 +3,7 @@ function TitleBanner({ heading, subHeading }) {
     <section className="d-flex justify-content-center mt-3">
       <h1 className="fw-normal">
         {heading}
-        <div className="fw-semibold">{subHeading}</div>
+        <div className="fw-semibold ms-2">{subHeading}</div>
       </h1>
     </section>
   );
