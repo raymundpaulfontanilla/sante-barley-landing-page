@@ -7,6 +7,11 @@ function MobileBanner() {
     <header>
       <TitleBanner heading={"SANTÉ PHILIPPINE"} subHeading={" HEADQUARTERS"} />
       <ImageBanner philippineImageBanner={philippineHeadquarters} />
+      <TitleBanner
+        heading={"SANTÉ INTERNATIONAL"}
+        subHeading={" HEADQUARTERS"}
+        className="ms-5"
+      />
     </header>
   );
 }
