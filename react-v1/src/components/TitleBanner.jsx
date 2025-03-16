@@ -1,9 +1,9 @@
-function TitleBanner({ heading, subHeading }) {
+function TitleBanner({ heading, subHeading, className = "" }) {
   return (
     <section className="d-flex justify-content-center mt-3">
-      <h1 className="fw-normal">
+      <h1 className="fw-normal mt-2">
         {heading}
-        <div className="fw-semibold ms-2">{subHeading}</div>
+        <div className={`fw-semibold ms-2 ${className}`}>{subHeading}</div>
       </h1>
     </section>
   );
