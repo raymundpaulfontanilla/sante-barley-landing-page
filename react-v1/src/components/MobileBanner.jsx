@@ -10,7 +10,7 @@ function MobileBanner() {
       <TitleBanner
         heading={"SANTÉ INTERNATIONAL"}
         subHeading={" HEADQUARTERS"}
-        className="ms-5"
+        className="international-sub-heading"
       />
     </header>
   );

@@ -1,3 +1,5 @@
+import "../components/styles/international-sub-heading.css";
+
 function TitleBanner({ heading, subHeading, className = "" }) {
   return (
     <section className="d-flex justify-content-center mt-3">
