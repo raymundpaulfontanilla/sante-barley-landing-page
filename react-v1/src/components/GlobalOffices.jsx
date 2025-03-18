@@ -1,5 +1,15 @@
+import GlobalOfficeTitle from "./GlobalOfficeTitle";
+
 function GlobalOffices() {
-  return <div></div>;
+  return (
+    <>
+      <GlobalOfficeTitle
+        mainTitle={"Santé"}
+        spanTitle={"Global"}
+        endTitle={"Offices"}
+      />
+    </>
+  );
 }
 
 export default GlobalOffices;
