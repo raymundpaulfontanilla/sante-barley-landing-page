@@ -1,6 +1,8 @@
-import ImageBanner from "./ImageBanner";
 import TitleBanner from "./TitleBanner";
+import ImageBanner from "./ImageBanner";
 import philippineHeadquarters from "../assets/images/ph_headquarters.png";
+import InternationalBannerImage from "./InternationalBannerImage";
+import internationalHeadquarters from "../assets/images/international_headquarters.png";
 
 function MobileBanner() {
   return (
@@ -11,6 +13,9 @@ function MobileBanner() {
         heading={"SANTÉ INTERNATIONAL"}
         subHeading={" HEADQUARTERS"}
         className="international-sub-heading"
+      />
+      <InternationalBannerImage
+        internationalImageBanner={internationalHeadquarters}
       />
     </header>
   );
