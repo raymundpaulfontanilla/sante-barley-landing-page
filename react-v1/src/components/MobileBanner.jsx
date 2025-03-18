@@ -1,5 +1,5 @@
 import TitleBanner from "./TitleBanner";
-import PhilippinesBannerImage from "./PhilippinesBanner";
+import PhilippinesBannerImage from "./PhilippinesBannerImage";
 import philippineHeadquarters from "../assets/images/ph_headquarters.png";
 import InternationalBannerImage from "./InternationalBannerImage";
 import internationalHeadquarters from "../assets/images/international_headquarters.png";
