@@ -1,3 +1,4 @@
+import GlobalOfficesFlags from "./GlobalOfficesFlags";
 import GlobalOfficeTitle from "./GlobalOfficeTitle";
 
 function GlobalOffices() {
@@ -8,6 +9,7 @@ function GlobalOffices() {
         spanTitle={"Global"}
         endTitle={"Offices"}
       />
+      <GlobalOfficesFlags />
     </>
   );
 }
