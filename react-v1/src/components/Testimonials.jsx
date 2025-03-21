@@ -1,5 +1,11 @@
+import TestimonialsHeading from "./TestimonialsHeading";
+
 function Testimonials() {
-  return <div></div>;
+  return (
+    <div>
+      <TestimonialsHeading testiMonials={"Testimonials"} />
+    </div>
+  );
 }
 
 export default Testimonials;
