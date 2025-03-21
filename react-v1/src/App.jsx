@@ -1,6 +1,7 @@
 import GlobalOffices from "./components/GlobalOffices";
 import MobileBanner from "./components/MobileBanner";
 import NavigationBar from "./components/NavigationBar";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <NavigationBar />
       <MobileBanner />
       <GlobalOffices />
+      <Testimonials />
     </div>
   );
 }
