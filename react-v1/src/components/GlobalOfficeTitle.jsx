@@ -1,7 +1,7 @@
 function GlobalOfficeTitle({ mainTitle, spanTitle, endTitle }) {
   return (
     <section>
-      <h1 className="d-flex justify-content-center">
+      <h1 className="d-flex justify-content-center mb-3">
         {mainTitle}
         {"\u00A0"}
         <span className="fw-bold">{spanTitle}</span>
