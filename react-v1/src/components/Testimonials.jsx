@@ -8,7 +8,7 @@ function Testimonials() {
       <EstablishedDate
         italicEstablishedDate={"Since our inception in 2007"}
         establishedDate={
-          "as a direct selling company, we have consistently evolved,"
+          "as a direct selling company, we have consistently evolved"
         }
         boldEstablishedDate={"expanding our global presence,"}
         endingEstablishedDate={
