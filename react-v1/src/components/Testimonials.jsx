@@ -1,5 +1,6 @@
 import EstablishedDate from "./EstablishedDate";
 import TestimonialsHeading from "./TestimonialsHeading";
+import YoutubeTestimonialsVideos from "./YoutubeTestimonialsVideos";
 
 function Testimonials() {
   return (
@@ -15,6 +16,7 @@ function Testimonials() {
           "enhancing our WELLNESS PRODUCTS, and earning widespread recognition and positive testimonials."
         }
       />
+      <YoutubeTestimonialsVideos />
     </div>
   );
 }
