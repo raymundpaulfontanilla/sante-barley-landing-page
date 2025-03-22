@@ -13,7 +13,7 @@ function KidneyFailure({ link }) {
           {!isPlaying ? (
             <img
               src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
-              alt="YouTube Thumbnail"
+              alt="Kidney Failure Thumbnail"
               style={{ cursor: "pointer", width: "100%" }}
               onClick={() => setIsPlaying(true)}
             />

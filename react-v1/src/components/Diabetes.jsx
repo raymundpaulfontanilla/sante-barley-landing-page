@@ -13,7 +13,7 @@ function Diabetes({ link }) {
           {!isPlaying ? (
             <img
               src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
-              alt="YouTube Thumbnail"
+              alt="Diabetes Thumbnail"
               style={{ cursor: "pointer", width: "100%" }}
               onClick={() => setIsPlaying(true)}
             />
