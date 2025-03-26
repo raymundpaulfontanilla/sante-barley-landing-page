@@ -23,7 +23,7 @@ function Testimonials() {
         src={SanteCertifications}
         alt="sante certifications"
         fluid
-        className="mt-3"
+        className="mt-3 mb-3"
       />
     </div>
   );
