@@ -11,7 +11,7 @@ function Home() {
       <MobileBanner />
       <GlobalOffices />
       <Testimonials />
-      <Footer footer={"© 2025 Santé Philippines | All Rights Reserved"} />
+      <Footer />
     </>
   );
 }
