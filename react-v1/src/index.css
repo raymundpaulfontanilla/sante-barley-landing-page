@@ -45,3 +45,13 @@ a:hover {
 h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
+.custom-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.custom-button .btn:hover {
+  color: #fff !important;
+}

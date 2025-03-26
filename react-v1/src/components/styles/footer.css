@@ -1,7 +1,13 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .footer {
   background-color: #0c9931;
-  color: #fff;
+  color: white;
   text-align: center;
-  margin-top: 20px;
-  padding: 5px;
+  padding: 10px 0;
+  margin-top: auto;
 }
