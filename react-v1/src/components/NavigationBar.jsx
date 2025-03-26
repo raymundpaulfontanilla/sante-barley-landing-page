@@ -26,6 +26,9 @@ function NavigationBar() {
                       About Us
                     </Nav.Link>
                     <Nav.Link href="#branches" aria-label="Branches page">
+                      Products
+                    </Nav.Link>
+                    <Nav.Link href="#branches" aria-label="Branches page">
                       Branches
                     </Nav.Link>
                     <Nav.Link href="#contact-us" aria-label="Contact us page">
