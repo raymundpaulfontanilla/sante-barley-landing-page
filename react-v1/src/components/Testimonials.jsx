@@ -1,6 +1,8 @@
 import EstablishedDate from "./EstablishedDate";
 import TestimonialsHeading from "./TestimonialsHeading";
 import YoutubeTestimonialsVideos from "./YoutubeTestimonialsVideos";
+import Image from "react-bootstrap/Image";
+import SanteCertifications from "../assets/images/sante-barley-certifications.png";
 
 function Testimonials() {
   return (
@@ -17,6 +19,12 @@ function Testimonials() {
         }
       />
       <YoutubeTestimonialsVideos />
+      <Image
+        src={SanteCertifications}
+        alt="sante certifications"
+        fluid
+        className="mt-3"
+      />
     </div>
   );
 }
