@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Link } from "react-router-dom";
 
 function NavigationBar() {
   return (
@@ -13,7 +14,8 @@ function NavigationBar() {
             <Navbar expand="lg" className="bg-body-tertiary">
               <Container fluid>
                 <Navbar.Brand
-                  href="#home"
+                  as={Link}
+                  to="/"
                   className="fs-4"
                   aria-label="Go to home"
                 >
@@ -22,16 +24,28 @@ function NavigationBar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mx-auto">
-                    <Nav.Link href="#about-us" aria-label="About us page">
+                    <Nav.Link as={Link} to="/" aria-label="Home page">
                       About Us
                     </Nav.Link>
-                    <Nav.Link href="#branches" aria-label="Branches page">
+                    <Nav.Link
+                      as={Link}
+                      to="/products"
+                      aria-label="Products page"
+                    >
                       Products
                     </Nav.Link>
-                    <Nav.Link href="#branches" aria-label="Branches page">
+                    <Nav.Link
+                      as={Link}
+                      to="#branches"
+                      aria-label="Branches page"
+                    >
                       Branches
                     </Nav.Link>
-                    <Nav.Link href="#contact-us" aria-label="Contact us page">
+                    <Nav.Link
+                      as={Link}
+                      to="#contact-us"
+                      aria-label="Contact us page"
+                    >
                       Contact Us
                     </Nav.Link>
                   </Nav>
