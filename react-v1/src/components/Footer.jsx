@@ -1,9 +1,11 @@
 import "../components/styles/footer.css";
 
-function Footer({ footer }) {
+function Footer() {
   return (
     <>
-      <footer className="footer">{footer}</footer>
+      <footer className="footer">
+        © 2025 Santé Philippines | All Rights Reserved
+      </footer>
     </>
   );
 }
