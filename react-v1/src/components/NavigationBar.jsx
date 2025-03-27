@@ -36,7 +36,7 @@ function NavigationBar() {
                     </Nav.Link>
                     <Nav.Link
                       as={Link}
-                      to="#branches"
+                      to="/branches"
                       aria-label="Branches page"
                     >
                       Branches
