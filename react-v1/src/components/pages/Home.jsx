@@ -2,7 +2,6 @@ import NavigationBar from "../NavigationBar";
 import MobileBanner from "../MobileBanner";
 import GlobalOffices from "../GlobalOffices";
 import Testimonials from "../Testimonials";
-import Footer from "../Footer";
 
 function Home() {
   return (
@@ -11,7 +10,6 @@ function Home() {
       <MobileBanner />
       <GlobalOffices />
       <Testimonials />
-      <Footer />
     </>
   );
 }
