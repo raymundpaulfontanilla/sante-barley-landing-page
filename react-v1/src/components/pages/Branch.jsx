@@ -23,9 +23,7 @@ function Branch() {
   );
 
   return (
-    <div
-      style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
-    >
+    <div>
       <NavigationBar />
       <BranchHeading branchHeading={"Branches"} />
       <Container>
