@@ -5,7 +5,6 @@ import Form from "react-bootstrap/Form";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Footer from "../Footer";
 import { useState } from "react";
 
 function Branch() {
@@ -47,7 +46,6 @@ function Branch() {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </div>
   );
 }
