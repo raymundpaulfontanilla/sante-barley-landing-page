@@ -43,7 +43,7 @@ function NavigationBar() {
                     </Nav.Link>
                     <Nav.Link
                       as={Link}
-                      to="#contact-us"
+                      to="/contact-us"
                       aria-label="Contact us page"
                     >
                       Contact Us
