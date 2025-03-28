@@ -4,6 +4,7 @@ import Product from "./components/pages/Product";
 import Branch from "./components/pages/Branch";
 import Layout from "./components/Layout";
 import ContactUs from "./components/pages/ContactUs";
+import NotFound from "./components/pages/NotFound";
 
 function App() {
   return (
@@ -14,6 +15,12 @@ function App() {
           <Route path="/products" element={<Product />} />
           <Route path="/branches" element={<Branch />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route
+            path="*"
+            element={
+              <NotFound statusCode={"404"} notFoundMessage={"Not Found"} />
+            }
+          />
         </Routes>
       </BrowserRouter>
     </Layout>
