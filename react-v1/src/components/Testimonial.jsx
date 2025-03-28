@@ -1,14 +1,14 @@
-import EstablishedDate from "./EstablishedDate";
-import TestimonialsHeading from "./TestimonialsHeading";
-import YoutubeTestimonialsVideos from "./YoutubeTestimonialsVideos";
+import EstablishDate from "./EstablishDate";
+import TestimonialHeading from "./headings/Testimonial";
+import YoutubeTestimonialVideo from "./YoutubeTestimonialVideo";
 import Image from "react-bootstrap/Image";
 import SanteCertifications from "../assets/images/sante-barley-certifications.png";
 
-function Testimonials() {
+function Testimonial() {
   return (
     <div>
-      <TestimonialsHeading testiMonials={"Testimonials"} />
-      <EstablishedDate
+      <TestimonialHeading testiMonials={"Testimonials"} />
+      <EstablishDate
         italicEstablishedDate={"Since our inception in 2007"}
         establishedDate={
           "as a direct selling company, we have consistently evolved"
@@ -18,7 +18,7 @@ function Testimonials() {
           "enhancing our WELLNESS PRODUCTS, and earning widespread recognition and positive testimonials."
         }
       />
-      <YoutubeTestimonialsVideos />
+      <YoutubeTestimonialVideo />
       <Image
         src={SanteCertifications}
         alt="sante certifications"
@@ -29,4 +29,4 @@ function Testimonials() {
   );
 }
 
-export default Testimonials;
+export default Testimonial;

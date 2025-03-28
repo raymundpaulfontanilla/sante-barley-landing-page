@@ -1,6 +1,6 @@
 import { getBranches } from "../../data/sante-branches";
 import NavigationBar from "../NavigationBar";
-import BranchHeading from "./BranchHeading";
+import BranchHeading from "../headings/Branch";
 import Form from "react-bootstrap/Form";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

@@ -1,5 +1,5 @@
-import GlobalOfficesFlags from "./GlobalOfficesFlags";
-import GlobalOfficeTitle from "./GlobalOfficeTitle";
+import GlobalOfficeFlag from "./GlobalOfficeFlag";
+import GlobalOfficeTitle from "./headings/GlobalOffice";
 
 function GlobalOffices() {
   return (
@@ -9,7 +9,7 @@ function GlobalOffices() {
         spanTitle={"Global"}
         endTitle={"Offices"}
       />
-      <GlobalOfficesFlags />
+      <GlobalOfficeFlag />
     </>
   );
 }

@@ -7,10 +7,10 @@ import GoogleMap from "../GoogleMap";
 
 function ContactUsData({ mobileNumber, facebookProfile }) {
   return (
-    <>
-      <Container className="d-flex justify-content-center">
-        <Row className="justify-content-center text-center mb-4">
-          <Col>
+    <Container className="d-flex justify-content-center">
+      <Row className="justify-content-center text-center mb-4">
+        <Col>
+          <address>
             <FaPhone />
             {"\u00A0"}
             <span>{mobileNumber}</span>
@@ -21,14 +21,14 @@ function ContactUsData({ mobileNumber, facebookProfile }) {
                 Contact me on Facebook
               </a>
             </div>
-            <GoogleMap
-              houseHeading={"House Location"}
-              bootingHeading={"Booting Location"}
-            />
-          </Col>
-        </Row>
-      </Container>
-    </>
+          </address>
+          <GoogleMap
+            houseHeading={"House Location"}
+            bootingHeading={"Booting Location"}
+          />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

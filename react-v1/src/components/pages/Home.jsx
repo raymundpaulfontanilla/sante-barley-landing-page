@@ -1,15 +1,15 @@
 import NavigationBar from "../NavigationBar";
 import MobileBanner from "../MobileBanner";
-import GlobalOffices from "../GlobalOffices";
-import Testimonials from "../Testimonials";
+import GlobalOffice from "../GlobalOffice";
+import Testimonial from "../Testimonial";
 
 function Home() {
   return (
     <>
       <NavigationBar />
       <MobileBanner />
-      <GlobalOffices />
-      <Testimonials />
+      <GlobalOffice />
+      <Testimonial />
     </>
   );
 }

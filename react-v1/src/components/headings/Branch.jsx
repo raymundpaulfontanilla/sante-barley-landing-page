@@ -1,12 +1,12 @@
-function ContactUsHeading({ contactUsHeading }) {
+function Branch({ branchHeading }) {
   return (
     <>
       <h1 className="d-flex justify-content-center">
-        {contactUsHeading}
+        {branchHeading}
         {"\u00A0"}
       </h1>
     </>
   );
 }
 
-export default ContactUsHeading;
+export default Branch;

@@ -1,4 +1,4 @@
-import Footer from "./Footer";
+import Footer from "../components/shared/Footer";
 
 function Layout({ children }) {
   return (

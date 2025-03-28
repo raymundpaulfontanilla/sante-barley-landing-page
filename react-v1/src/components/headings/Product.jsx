@@ -1,4 +1,4 @@
-function ProductHeading({ productHeading, productHeadingTwo }) {
+function Product({ productHeading, productHeadingTwo }) {
   return (
     <>
       <h1 className="d-flex justify-content-center">
@@ -10,4 +10,4 @@ function ProductHeading({ productHeading, productHeadingTwo }) {
   );
 }
 
-export default ProductHeading;
+export default Product;
