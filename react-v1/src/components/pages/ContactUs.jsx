@@ -1,5 +1,5 @@
 import NavigationBar from "../NavigationBar";
-import ContactUsHeading from "./ContactUsHeading";
+import ContactUsHeading from "../headings/ContactUs";
 import ContactUsData from "./ContactUsData";
 
 function ContactUs() {

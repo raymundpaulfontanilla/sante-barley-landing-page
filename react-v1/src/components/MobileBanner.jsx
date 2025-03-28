@@ -1,14 +1,14 @@
-import TitleBanner from "./TitleBanner";
-import PhilippinesBannerImage from "./PhilippinesBannerImage";
+import TitleBanner from "./headings/TitleBanner";
+import PhilippineImage from "./banners/PhilippineImage";
 import philippineHeadquarters from "../assets/images/ph_headquarters.png";
-import InternationalBannerImage from "./InternationalBannerImage";
+import InternationalBannerImage from "./banners/InternationalImage";
 import internationalHeadquarters from "../assets/images/international_headquarters.png";
 
 function MobileBanner() {
   return (
     <header>
       <TitleBanner heading={"SANTÉ PHILIPPINE"} subHeading={" HEADQUARTERS"} />
-      <PhilippinesBannerImage philippineImageBanner={philippineHeadquarters} />
+      <PhilippineImage philippineImageBanner={philippineHeadquarters} />
       <TitleBanner
         heading={"SANTÉ INTERNATIONAL"}
         subHeading={" HEADQUARTERS"}

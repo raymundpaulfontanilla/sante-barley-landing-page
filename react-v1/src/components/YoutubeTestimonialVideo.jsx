@@ -1,9 +1,9 @@
-import Diabetes from "./Diabetes";
-import KidneyFailure from "./KidneyFailure";
-import Lupus from "./Lupus";
-import PCOS from "./PCOS";
+import Diabetes from "./diseases/Diabetes";
+import KidneyFailure from "./diseases/KidneyFailure";
+import Lupus from "./diseases/Lupus";
+import PCOS from "./diseases/PCOS";
 
-function YoutubeTestimonialsVideos() {
+function YoutubeTestimonialVideo() {
   return (
     <div>
       <Diabetes link={"https://youtu.be/irh5TD_hJek"} />
@@ -14,4 +14,4 @@ function YoutubeTestimonialsVideos() {
   );
 }
 
-export default YoutubeTestimonialsVideos;
+export default YoutubeTestimonialVideo;

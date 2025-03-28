@@ -1,4 +1,4 @@
-function EstablishedDate({
+function EstablishDate({
   italicEstablishedDate,
   establishedDate,
   boldEstablishedDate,
@@ -16,4 +16,4 @@ function EstablishedDate({
   );
 }
 
-export default EstablishedDate;
+export default EstablishDate;

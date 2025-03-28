@@ -1,5 +1,5 @@
 import NavigationBar from "../NavigationBar";
-import ProductHeading from "./ProductHeading";
+import ProductHeading from "../headings/Product";
 import Container from "react-bootstrap/Container";
 import { getProducts } from "../../data/sante-products";
 import Row from "react-bootstrap/Row";
@@ -27,15 +27,17 @@ function Product() {
         <Row className="g-4">
           {products.map(({ id, productName, productImage, price }) => (
             <Col key={id} xs={12} md={6} lg={3}>
-              <div className="d-flex flex-column align-items-center text-center p-3">
+              <figure className="d-flex flex-column align-items-center text-center p-3">
                 <Image
                   src={productImage}
                   fluid
                   alt={`Product ${productName}`}
                   className="product-image mb-2"
                 />
-                <p className="fw-bold text-dark">{formatPrice(price)}</p>
-              </div>
+                <figcaption className="fw-bold text-dark">
+                  {formatPrice(price)}
+                </figcaption>
+              </figure>
             </Col>
           ))}
           <div className="custom-button">

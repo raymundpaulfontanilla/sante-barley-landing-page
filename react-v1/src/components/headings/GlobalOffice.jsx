@@ -1,4 +1,4 @@
-function GlobalOfficeTitle({ mainTitle, spanTitle, endTitle }) {
+function GlobalOffice({ mainTitle, spanTitle, endTitle }) {
   return (
     <section>
       <h1 className="d-flex justify-content-center mb-3">
@@ -12,4 +12,4 @@ function GlobalOfficeTitle({ mainTitle, spanTitle, endTitle }) {
   );
 }
 
-export default GlobalOfficeTitle;
+export default GlobalOffice;

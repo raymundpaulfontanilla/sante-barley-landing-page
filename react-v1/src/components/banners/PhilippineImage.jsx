@@ -1,6 +1,6 @@
 import Image from "react-bootstrap/Image";
 
-function PhilippinesBannerImage({ philippineImageBanner }) {
+function PhilippineImage({ philippineImageBanner }) {
   return (
     <figure>
       <Image src={philippineImageBanner} alt="philippine headquarters" fluid />
@@ -8,4 +8,4 @@ function PhilippinesBannerImage({ philippineImageBanner }) {
   );
 }
 
-export default PhilippinesBannerImage;
+export default PhilippineImage;

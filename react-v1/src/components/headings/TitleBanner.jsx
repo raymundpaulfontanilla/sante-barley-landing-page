@@ -1,4 +1,4 @@
-import "../components/styles/international-sub-heading.css";
+import "../styles/international-sub-heading.css";
 
 function TitleBanner({ heading, subHeading, className = "" }) {
   return (
